@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Renta de Sillas Mesas y Carpas</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:#111;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+display:flex;
+justify-content:center;
+background:#222;
+flex-wrap:wrap;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+padding:15px 20px;
+}
+
+nav a:hover{
+background:#ff9800;
+}
+
+.hero{
+background:url("https://images.unsplash.com/photo-1519167758481-83f550bb49b3") center/cover;
+height:400px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+text-align:center;
+}
+
+.hero h1{
+background:rgba(0,0,0,0.6);
+padding:20px;
+border-radius:10px;
+}
+
+section{
+padding:40px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.servicios{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+}
+
+.galeria img{
+width:100%;
+border-radius:10px;
+}
+
+form input, form textarea{
+width:100%;
+padding:10px;
+margin-top:10px;
+margin-bottom:15px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+background:#ff9800;
+color:white;
+padding:12px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#e68900;
+}
+
+.redes a{
+display:inline-block;
+margin:10px;
+padding:10px 15px;
+background:#222;
+color:white;
+border-radius:5px;
+text-decoration:none;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>Renta de Sillas, Mesas y Carpas</h2>
+<p>Todo para tus fiestas y eventos</p>
+</header>
+
+<nav>
+<a href="#servicios">Servicios</a>
+<a href="#galeria">Galería</a>
+<a href="#contacto">Contacto</a>
+<a href="#ubicacion">Ubicación</a>
+<a href="#comentarios">Comentarios</a>
+<a href="#redes">Redes</a>
+</nav>
+
+<div class="hero">
+<h1>Haz tu evento perfecto 🎉</h1>
+</div>
+
+<section id="servicios">
+
+<h2>Servicios</h2>
+
+<div class="servicios">
+
+<div class="card">
+<h3>Sillas</h3>
+<p>Renta de sillas para todo tipo de eventos.</p>
+</div>
+
+<div class="card">
+<h3>Mesas</h3>
+<p>Mesas para fiestas, reuniones y eventos.</p>
+</div>
+
+<div class="card">
+<h3>Carpas</h3>
+<p>Carpas para proteger tu evento del sol o lluvia.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="galeria">
+
+<h2>Galería</h2>
+
+<div class="galeria">
+
+<img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce">
+
+<img src="https://images.unsplash.com/photo-1505236731924-0d26634c08b7">
+
+<img src="https://images.unsplash.com/photo-1478145046317-39f10e56b5e9">
+
+</div>
+
+</section>
+
+<section id="contacto">
+
+<h2>Contacto</h2>
+
+<p>Teléfono: 000-000-0000</p>
+<p>Email: contacto@eventos.com</p>
+
+</section>
+
+<section id="ubicacion">
+
+<h2>Ubicación</h2>
+
+<iframe 
+src="https://www.google.com/maps" 
+width="100%" 
+height="300" 
+style="border:0;">
+</iframe>
+
+</section>
+
+<section id="comentarios">
+
+<h2>Comentarios</h2>
+
+<form>
+
+<input type="text" placeholder="Tu nombre" required>
+
+<textarea placeholder="Escribe tu comentario"></textarea>
+
+<button>Enviar comentario</button>
+
+</form>
+
+</section>
+
+<section id="redes">
+
+<h2>Redes Sociales</h2>
+
+<div class="redes">
+
+<a href="#">Instagram</a>
+<a href="#">Facebook</a>
+<a href="#">TikTok</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Renta de Sillas Mesas y Carpas</p>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5210000000000">
+WhatsApp
+</a>
+
+</body>
+</html>
